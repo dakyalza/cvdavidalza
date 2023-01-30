@@ -1,0 +1,401 @@
+
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #DBE6F6; 
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6); 
+    background: linear-gradient(to right, #C5796D, #DBE6F6); 
+    ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.1);
+
+}
+.container .lado_izquierdo {
+    position: relative;
+    background: rgb(160, 102, 129);
+    padding: 40px;
+}
+.texto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgb(199, 192, 192)
+
+}
+.fotoflaco{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.fotoflaco img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h2{
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin: 10px;
+}
+span {
+    color:aliceblue;
+font-size: 0.8em;
+font-weight: 300;}
+
+.infocontacto {
+    padding-top: 20px;
+}
+.contacto {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.infocontacto ul{
+    position: relative;
+    padding: 0%;
+
+}
+.infocontacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.infocontacto ul li .icono {
+    display: inline-block;
+    width: 20px;
+    font-size: 20px;
+    color: rgb(252, 200, 234);
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 30px;
+   
+}
+.infoacademica ul{ 
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0%;
+    list-style: none;
+    position: relative;
+    
+    
+    
+}
+
+h4 {
+    color: rgb(36, 41, 46);
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+h6{
+    font-size: 0.8em;
+}
+h8 {
+    color: rgb(36, 41, 46);
+    font-size: 18px;
+    text-transform: uppercase;
+    display: flex;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
+}
+h9{
+    font: size 0.8em;;
+}
+
+   
+.infocontacto ul li span {
+    color: aliceblue;
+    font-weight: 600;
+   
+
+   
+}
+.idiomas ul li{
+  
+    list-style: none;
+    position: relative;
+    right: 40px;
+    font-size: 25px;
+}
+
+
+.idiomas .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(19, 18, 18);
+    display: flex;
+    margin-top: 5px;
+   
+
+}
+.idiomas .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(104, 189, 177);
+}
+
+
+
+.container .lado_derecho {
+    position: relative;
+    background: rgb(255, 255, 255);
+}
+.titulo1{
+    margin-bottom: 50px;
+}
+.titulo:last-child{
+    margin-bottom: 0;
+}
+.titulo2{
+    color: #aa7a9c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{ 
+    margin: 26px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: -9px;
+}
+
+.titulo1 .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+
+}
+.titulo1 .box .años {
+    min-width: 160px;
+    font-size: 20px;
+    margin-left: 25px;
+    color: rgb(31, 41, 46);
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulo1 .box .años h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.titulo1 .box .text h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #aa7a9c;
+    padding-left: 24px;
+    letter-spacing: 6px;
+    
+}
+.titulo2 {
+    color: rgb(160, 102,129);
+    flex-direction: row;
+    margin: 24px;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: initial;
+}
+.titulo3 {
+    color: rgb(160, 102,129);
+    flex-direction: row;
+    margin: 30px;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+
+}
+
+    header{
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    }
+
+.container .lado_derecho .btn
+{
+    left: 600pxS;
+}
+
+
+
+#button-up
+{
+    width: 80px;
+    height: 80px;
+    background-color:#d399c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    right: 10px;
+    position: fixed;
+    bottom: 20px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+#button-up:hover 
+{
+    transform: scale(1.1);
+    border-color: rgb(0,0,0,0.1);
+    
+}
+.modal
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition:transform .8s;
+
+}
+.modal--show
+{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0vh) ;
+    --transition:transform .8s .8s;
+
+}
+
+.modal__container
+{
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
+    background-color: #fff;
+    border-radius: 70px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition: var(--transition);
+    
+   
+  
+
+
+
+ }
+.modal_title
+{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+.modal_paragraph 
+{
+    margin-bottom: 10px;
+
+}
+
+.modal_img 
+{
+    width: 90%;
+    max-height: 300px;
+
+}
+.modal__close
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #aa7a9c;
+    padding: 1em 4em;
+    border: 1px solid;
+    border-radius: 55px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+    font-size: 30px;
+    transition: all 13ms ease;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    
+
+}
+
+     .modal__close:hover
+     {
+        color:#DBE6F6;
+        background-color:#C5796D;
+        
+     }
+
+     @media (max-width:1000px)
+     {
+        .container
+        {margin: 10px;
+            grid-template-columns: repeat(1,1fr);
+        }
+     }
+
+     
